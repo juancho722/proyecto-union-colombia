@@ -41,3 +41,11 @@ input[type="submit"] { /*Input type es el tipo de input que se va a utilizar*/
 input[type="submit"]:hover { /*Input hover es el input cuando el cursor está encima*/
   background-color: #45a049;
 }
+segundo-button{
+
+  display: grid;
+  place-content: center;
+}
+#titulo{
+  color:rgb(0, 110, 255)
+}

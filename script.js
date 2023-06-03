@@ -18,8 +18,6 @@ var users = [
   //TAREA - Agregar Nuevo usuarios con usuario: juan y contraseña: 123
 ]; 
 
-
-
 // Función para saber si el usuario existe
 function validarCredenciales() {
   var username = document.getElementById("email").value; //obtener el valor del input con id="email"
@@ -50,5 +48,7 @@ function alertaCredeciales(event) {
     alert("!! fracaso al ingresar ¡¡");
   }
   // TAREA - agregar if en caso de false
+  document.getElementById("login-button").addEventListener("click", alertaCredeciales); //agregar el evento click al boton con id="login-button"
 }
-document.getElementById("login-button").addEventListener("click", alertaCredeciales); //agregar el evento click al boton con id="login-button"
+
+
